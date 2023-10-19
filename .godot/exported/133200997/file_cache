@@ -1,0 +1,10 @@
+res://scenes/enemy.tscn::95bfc045ef9de2357d5fb40b98809db5::1689586447::res://.godot/exported/133200997/export-a930820ec0ab16db6719aff4daa500f9-enemy.scn
+res://scenes/game.tscn::6000031a16e0e4c03ee216646aa14672::1689586447::res://.godot/exported/133200997/export-c2a7af834e91ff64325daddf58e45dc0-game.scn
+res://scenes/game_over_screen.tscn::f1350e9fe3bad46cb4871ca3cedd342c::1689586447::res://.godot/exported/133200997/export-e22825d93e7ddd42eb50ee3deead56b6-game_over_screen.scn
+res://scenes/hud.tscn::ad4286864a0cf31370a2dbd7a14ea417::1689586447::res://.godot/exported/133200997/export-38bf74ff262409a94a41206b2b776d33-hud.scn
+res://scenes/laser.tscn::eaf3af48d8a006324b6f1fc7088276f6::1689586447::res://.godot/exported/133200997/export-7ea66689adea2f221421049858cbe224-laser.scn
+res://scenes/mne_lazr.tscn::e65dde919aa49eaca38affb31c58aac0::1689379215::res://.godot/exported/133200997/export-fe504048a1d1f07046f4e04b3bb697a9-mne_lazr.scn
+res://scenes/player.tscn::d63150a71545b36f4e3f8dad5d558bb7::1689586447::res://.godot/exported/133200997/export-234fb6894ec6226e856ab7f825500d3d-player.scn
+res://scenes/speedy.tscn::8438a68d460d92d7ed77524c189dd4c9::1689586447::res://.godot/exported/133200997/export-8ec1234223770db8ce19146c67823ee6-speedy.scn
+res://laser.tscn::972d466995712800d3ff6edf5db8feac::1689370055::res://.godot/exported/133200997/export-b21fafe43ac97fc1dd338bca39523f0b-laser.scn
+res://player.tscn::3ea7b9ee2ccd6ebd77417630b2557766::1689197491::res://.godot/exported/133200997/export-36a25e342948d0ceacc500772b5412b3-player.scn

@@ -1,0 +1,26 @@
+[gd_scene load_steps=4 format=3 uid="uid://cah4qxydqn7o0"]
+
+[ext_resource type="Texture2D" uid="uid://utiepbt23m4h" path="res://Assest/Regular bullet.png" id="1_eiyn5"]
+[ext_resource type="Script" path="res://scripts/mne_lazr.gd" id="2_kofr2"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_eglsa"]
+size = Vector2(55.0818, 53.2458)
+
+[node name="MNE LAZR" type="Sprite2D"]
+scale = Vector2(0.738, 0.738)
+texture = ExtResource("1_eiyn5")
+script = ExtResource("2_kofr2")
+
+[node name="Area2D" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-1.8576e-06, -0.677505)
+scale = Vector2(0.738, 0.738)
+shape = SubResource("RectangleShape2D_eglsa")
+
+[node name="VisibleOnScreenNotifier2D" type="VisibleOnScreenNotifier2D" parent="."]
+position = Vector2(-1, -35)
+scale = Vector2(1.35, 1)
+
+[connection signal="body_entered" from="Area2D" to="." method="_on_area_2d_body_entered"]
+[connection signal="screen_exited" from="VisibleOnScreenNotifier2D" to="." method="_on_visible_on_screen_notifier_2d_screen_exited"]

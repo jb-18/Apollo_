@@ -1,0 +1,40 @@
+2a60927148abd1d33b818b535e306557
+::res://::1697692826
+Deep Blue.png::CompressedTexture2D::6484980899405832990::1689583990::1689583990::1::::<><>::
+download.jpg::CompressedTexture2D::8783509114921055646::1689583474::1689583474::1::::<><>::
+export_presets.cfg::TextFile::-1::1690425852::0::1::::<><>::
+icon.svg::CompressedTexture2D::128083768994608873::1688938176::1688938190::1::::<><>::
+laser.tscn::PackedScene::3342652509254676652::1689370055::0::1::::<><>::uid://dgbfb2u6su67w<>res://scripts/laser.gd
+little-greene-deep-space-blue.jpg::CompressedTexture2D::3403717579316982459::1689583474::1689583474::1::::<><>::
+player.tscn::PackedScene::1313889464159290150::1689197491::0::1::::<><>::res://scripts/player.gd<>uid://lotog2c1raxi
+Untitled.png::CompressedTexture2D::157434393506081270::1689585272::1689585272::1::::<><>::
+::res://Assest/::1689583464
+Boom bullet.png::CompressedTexture2D::6897820764698563084::1688946943::1688946943::1::::<><>::
+Boom.png::CompressedTexture2D::3718133184493993881::1688946943::1688946943::1::::<><>::
+Boss man.png::CompressedTexture2D::4185518812096599890::1688946943::1688946943::1::::<><>::
+Exsplosion.png::CompressedTexture2D::4339926319489148140::1688946943::1688946943::1::::<><>::
+player bullet.png::CompressedTexture2D::7582766311879211890::1688946943::1688946943::1::::<><>::
+Pro-tag.png::CompressedTexture2D::802157549528529086::1688946943::1688946943::1::::<><>::
+Regular bullet.png::CompressedTexture2D::1443493719501060801::1688946943::1688946943::1::::<><>::
+Regular.png::CompressedTexture2D::3823063636728266687::1688946943::1688946943::1::::<><>::
+Speed bullet.png::CompressedTexture2D::3246569360779392294::1688946943::1688946944::1::::<><>::
+Speed.png::CompressedTexture2D::526209477675277436::1688946943::1688946944::1::::<><>::
+::res://export folder/::1690425852
+::res://scenes/::1689586447
+enemy.tscn::PackedScene::6183822684660391792::1689586447::0::1::::<><>::uid://bup6kgjer00nj<>res://scripts/enemy.gd
+game.tscn::PackedScene::2106634121177939306::1689586447::0::1::::<><>::res://scripts/game.gd<>uid://syptkbsecne1<>uid://cudqwkri63ecm<>uid://btlvduu2xhxk3<>uid://dy6t8q8415lxg<>uid://cmew1lwnmihov<>uid://cynmxnjasfu7g<>uid://cii6lhbvjrna
+game_over_screen.tscn::PackedScene::5624747818890787629::1689586447::0::1::::<><>::res://scripts/game_over_screen.gd
+hud.tscn::PackedScene::8909003455535070512::1689586447::0::1::::<><>::res://scripts/hud.gd
+laser.tscn::PackedScene::731399536887180053::1689586447::0::1::::<><>::res://scripts/laser.gd<>uid://dgbfb2u6su67w
+mne_lazr.tscn::PackedScene::4789082622427921725::1689379215::0::1::::<><>::uid://utiepbt23m4h<>res://scripts/mne_lazr.gd
+player.tscn::PackedScene::1219896342868306648::1689586447::0::1::::<><>::res://scripts/player.gd<>uid://lotog2c1raxi
+speedy.tscn::PackedScene::3743998364961069780::1689586447::0::1::::<><>::uid://cudqwkri63ecm<>uid://hq5uf02org73
+::res://scripts/::1689586447
+el.gd::GDScript::-1::1689374019::0::1::::<>Area2D<>::
+enemy.gd::GDScript::-1::1689408740::0::1::::Enemy<>Area2D<>::
+game.gd::GDScript::-1::1689585380::0::1::::<>Node2D<>::
+game_over_screen.gd::GDScript::-1::1689475343::0::1::::<>Control<>::
+hud.gd::GDScript::-1::1689410370::0::1::::<>Control<>::
+laser.gd::GDScript::-1::1689376615::0::1::::<>Area2D<>::
+mne_lazr.gd::GDScript::-1::1689376615::0::1::::<>Sprite2D<>::
+player.gd::GDScript::-1::1689586447::0::1::::Player<>CharacterBody2D<>::

@@ -1,0 +1,22 @@
+[gd_scene load_steps=3 format=3 uid="uid://btlvduu2xhxk3"]
+
+[ext_resource type="PackedScene" uid="uid://cudqwkri63ecm" path="res://scenes/enemy.tscn" id="1_s6yre"]
+[ext_resource type="Texture2D" uid="uid://hq5uf02org73" path="res://Assest/Speed.png" id="2_4ve5r"]
+
+[node name="Speedy" instance=ExtResource("1_s6yre")]
+position = Vector2(-1, 0)
+speed = 400
+hp = 1
+points = 100
+
+[node name="Sprite2D" parent="." index="0"]
+position = Vector2(10.2, 7.5)
+scale = Vector2(0.484, 0.5)
+texture = ExtResource("2_4ve5r")
+
+[node name="CollisionShape2D" parent="." index="1"]
+position = Vector2(9, 5)
+
+[node name="VisibleOnScreenNotifier2D" parent="." index="2"]
+position = Vector2(6, -35)
+scale = Vector2(1.2, 0.9)

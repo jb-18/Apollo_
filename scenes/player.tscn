@@ -1,0 +1,22 @@
+[gd_scene load_steps=4 format=3 uid="uid://rm6rq2nue0jc"]
+
+[ext_resource type="Script" path="res://scripts/player.gd" id="1_mikg1"]
+[ext_resource type="Texture2D" uid="uid://lotog2c1raxi" path="res://Assest/Pro-tag.png" id="2_34qt5"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_8xmnh"]
+size = Vector2(101, 84)
+
+[node name="Player" type="CharacterBody2D" groups=["Player"]]
+collision_mask = 2
+motion_mode = 1
+script = ExtResource("1_mikg1")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+scale = Vector2(0.7, 0.7)
+texture = ExtResource("2_34qt5")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-0.5, 0)
+shape = SubResource("RectangleShape2D_8xmnh")
+
+[node name="Muzzle" type="Marker2D" parent="."]
